@@ -34,9 +34,9 @@ export default function CaseStudies() {
                 </h3>
                 <p className="text-lg text-gray-400 grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
                 <div>
-                  <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
+                  <a className="btn-sm text-white bg-gray-600 hover:bg-gray-700 mt-6" href="#0">
                     <span className="text-sm">Learn more</span>
-                    <svg className="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-3 h-3 fill-current text-gray-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M6 5H0v2h6v4l6-5-6-5z" />
                     </svg>
                   </a>
@@ -58,9 +58,9 @@ export default function CaseStudies() {
                 </h3>
                 <p className="text-lg text-gray-400 grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
                 <div>
-                  <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
+                  <a className="btn-sm text-white bg-gray-600 hover:bg-gray-700 mt-6" href="#0">
                     <span className="text-sm">Learn more</span>
-                    <svg className="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-3 h-3 fill-current text-gray-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M6 5H0v2h6v4l6-5-6-5z" />
                     </svg>
                   </a>
@@ -82,9 +82,9 @@ export default function CaseStudies() {
                 </h3>
                 <p className="text-lg text-gray-400 grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
                 <div>
-                  <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
+                  <a className="btn-sm text-white bg-gray-600 hover:bg-gray-700 mt-6" href="#0">
                     <span className="text-sm">Learn more</span>
-                    <svg className="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-3 h-3 fill-current text-gray-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M6 5H0v2h6v4l6-5-6-5z" />
                     </svg>
                   </a>

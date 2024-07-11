@@ -15,7 +15,7 @@ export default function CtaContact() {
 
             {/* CTA button */}
             <div className="w-full lg:w-1/4 flex justify-center lg:justify-end">
-              <a className="btn text-white bg-purple-600 hover:bg-purple-700" href="#0">Contact us</a>
+              <a className="btn text-white bg-gray-600 hover:bg-gray-700" href="#0">Contact us</a>
             </div>
 
           </div>

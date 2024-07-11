@@ -30,7 +30,7 @@ export default function Team() {
                 <Image className="rounded-full mb-4" src={TeamImage01} width={120} height={120} alt="Team member 01" />
                 <h4 className="text-xl font-medium mb-1">Lara Lamprecht</h4>
                 <div className="text-gray-500 mb-1">CEO & Co-founder</div>
-                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@laraamprecht</a>
+                <a className="block text-gray-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@laraamprecht</a>
               </div>
             </div>
 
@@ -40,7 +40,7 @@ export default function Team() {
                 <Image className="rounded-full mb-4" src={TeamImage02} width={120} height={120} alt="Team member 02" />
                 <h4 className="text-xl font-medium mb-1">Marie Koniuszek</h4>
                 <div className="text-gray-500 mb-1">CEO & Co-founder</div>
-                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@marie_moon</a>
+                <a className="block text-gray-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@marie_moon</a>
               </div>
             </div>
 
@@ -50,7 +50,7 @@ export default function Team() {
                 <Image className="rounded-full mb-4" src={TeamImage03} width={120} height={120} alt="Team member 03" />
                 <h4 className="text-xl font-medium mb-1">Greg Sebastian</h4>
                 <div className="text-gray-500 mb-1">Head of Design</div>
-                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@mr_sebastian</a>
+                <a className="block text-gray-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@mr_sebastian</a>
               </div>
             </div>
 
@@ -60,7 +60,7 @@ export default function Team() {
                 <Image className="rounded-full mb-4" src={TeamImage04} width={120} height={120} alt="Team member 04" />
                 <h4 className="text-xl font-medium mb-1">Timothy Chandran</h4>
                 <div className="text-gray-500 mb-1">Product Executive</div>
-                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@timothychandran</a>
+                <a className="block text-gray-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@timothychandran</a>
               </div>
             </div>
 
@@ -70,7 +70,7 @@ export default function Team() {
                 <Image className="rounded-full mb-4" src={TeamImage05} width={120} height={120} alt="Team member 05" />
                 <h4 className="text-xl font-medium mb-1">Dominik Prasad</h4>
                 <div className="text-gray-500 mb-1">Backend Lead</div>
-                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@dominikprasad</a>
+                <a className="block text-gray-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@dominikprasad</a>
               </div>
             </div>
 
@@ -80,7 +80,7 @@ export default function Team() {
                 <Image className="rounded-full mb-4" src={TeamImage06} width={120} height={120} alt="Team member 06" />
                 <h4 className="text-xl font-medium mb-1">Darya Semenova</h4>
                 <div className="text-gray-500 mb-1">Backend Developer</div>
-                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@daryamagic</a>
+                <a className="block text-gray-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@daryamagic</a>
               </div>
             </div>
 
@@ -90,7 +90,7 @@ export default function Team() {
                 <Image className="rounded-full mb-4" src={TeamImage07} width={120} height={120} alt="Team member 07" />
                 <h4 className="text-xl font-medium mb-1">Quentin Renvoye</h4>
                 <div className="text-gray-500 mb-1">Product Designer</div>
-                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@quentinrenvoye</a>
+                <a className="block text-gray-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@quentinrenvoye</a>
               </div>
             </div>
 
@@ -100,7 +100,7 @@ export default function Team() {
                 <Image className="rounded-full mb-4" src={TeamImage08} width={120} height={120} alt="Team member 08" />
                 <h4 className="text-xl font-medium mb-1">Alyssa Chuzeville</h4>
                 <div className="text-gray-500 mb-1">Community Lead</div>
-                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@hello_chuzeville</a>
+                <a className="block text-gray-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@hello_chuzeville</a>
               </div>
             </div>
 

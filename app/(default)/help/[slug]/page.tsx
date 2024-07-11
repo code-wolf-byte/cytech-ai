@@ -43,7 +43,7 @@ export default async function SingleHelp({ params }: {
           <main className="md:flex-auto md:pl-10 order-1" data-aos="fade-up">
             <div className="mb-8">
               <h2 className="h2 mb-4">{help.title}</h2>
-              <p className="text-gray-400">Last updated - <span className="text-purple-600"><PostDate dateString={help.updatedAt} /></span></p>
+              <p className="text-gray-400">Last updated - <span className="text-gray-600"><PostDate dateString={help.updatedAt} /></span></p>
             </div>            
             <HelpMdx code={help.body.code} />
           </main>

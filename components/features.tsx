@@ -18,7 +18,7 @@ export default function Features() {
                 <div className="relative">
                   <Image className="md:max-w-none" src={FeatIllustration} width={540} height={520} alt="Features illustration" />
                   <svg className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto" width="540" height="520" viewBox="0 0 540 520" xmlns="http://www.w3.org/2000/svg">
-                    <g className="fill-current text-purple-600">
+                    <g className="fill-current text-black-600">
                       <circle className="pulse" cx="270" cy="260" r="64" />
                       <circle className="pulse pulse-1" cx="270" cy="260" r="64" />
                       <circle className="pulse pulse-2" cx="270" cy="260" r="64" />
@@ -30,7 +30,7 @@ export default function Features() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right" data-aos-anchor="[data-aos-id-features-home]">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Lighting fast workflow</div>
+                  <div className="font-architects-daughter text-xl text-[#f7ffff] mb-2">Lighting fast workflow</div>
                   <h3 className="h3 mb-3">Say hello to research data</h3>
                   <p className="text-xl text-gray-400 mb-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
                   <ul className="flex flex-wrap text-lg text-gray-400 -mx-2 -my-1">
@@ -70,7 +70,7 @@ export default function Features() {
                     <div>
                       <blockquote className="text-gray-400 italic m-0 mb-3">"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing".</blockquote>
                       <div className="text-gray-700 font-medium">
-                        <cite className="text-gray-200 not-italic">— Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
+                        <cite className="text-gray-200 not-italic">— Anastasia Dan</cite> - <a className="text-black-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
                       </div>
                     </div>
                   </div>

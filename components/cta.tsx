@@ -11,7 +11,7 @@ export default function Cta() {
 
             {/* CTA button */}
             <div className="flex justify-center mb-8" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-cta]">
-              <a className="btn text-white bg-purple-600 hover:bg-purple-700" href="#0">Start free trial</a>
+              <a className="btn text-white bg-gray-600 hover:bg-gray-700" href="#0">Start free trial</a>
             </div>
 
             {/* Check list */}

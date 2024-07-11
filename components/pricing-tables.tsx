@@ -25,9 +25,9 @@ export default function PricingTables() {
               <div className="inline-flex items-center">
                 <div className="text-gray-500 font-medium mr-3">Billed Monthly</div>
                 <div className="form-switch">
-                  <input type="checkbox" name="pricing-toggle" id="pricing-toggle" className="sr-only" checked={annual} onChange={() => setAnnual(!annual)} />
-                  <label className="bg-gray-600" htmlFor="pricing-toggle">
-                    <span className="bg-gray-200" aria-hidden="true"></span>
+                  <input type="checkbox" name="pricing-toggle" id="pricing-toggle" className="sr-only"  checked={annual} onChange={() => setAnnual(!annual)} />
+                  <label className="bg-white " htmlFor="pricing-toggle">
+                    <span className="bg-black" aria-hidden="true"></span>
                     <span className="sr-only">Enable to see yearly prices</span>
                   </label>
                 </div>
@@ -40,7 +40,7 @@ export default function PricingTables() {
               {/* Pricing table 1 */}
               <div className="relative flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="700">
                 <div className="mb-4 pb-4 border-b border-gray-700">
-                  <div className="h4 text-purple-600 mb-1">Essential</div>
+                  <div className="h4 text-gray-600 mb-1">Essential</div>
                   <div className="inline-flex items-baseline mb-2">
                     <span className="text-2xl md:text-3xl font-medium text-gray-400">$</span>
                     <span className="h2">{annual ? '49' : '55'}</span>
@@ -76,7 +76,7 @@ export default function PricingTables() {
                   </li>
                 </ul>
                 <div className="border border-gray-700 p-3 mt-6">
-                  <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 w-full" href="#0">Start free trial</a>
+                  <a className="btn-sm text-white bg-gray-600 hover:bg-gray-700 w-full" href="#0">Start free trial</a>
                 </div>
               </div>
 
@@ -86,7 +86,7 @@ export default function PricingTables() {
                   <div className="inline-flex text-sm font-semibold py-1 px-3 mt-px text-green-600 bg-green-200 rounded-full">Most Popular</div>
                 </div>
                 <div className="mb-4 pb-4 border-b border-gray-700">
-                  <div className="h4 text-purple-600 mb-1">Premium</div>
+                  <div className="h4 text-gray-600 mb-1">Premium</div>
                   <div className="inline-flex items-baseline mb-2">
                     <span className="text-2xl md:text-3xl font-medium text-gray-400">$</span>
                     <span className="h2">{annual ? '79' : '85'}</span>
@@ -128,14 +128,14 @@ export default function PricingTables() {
                   </li>
                 </ul>
                 <div className="border border-gray-700 p-3 mt-6">
-                  <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 w-full" href="#0">Start free trial</a>
+                  <a className="btn-sm text-white bg-gray-600 hover:bg-gray-700 w-full" href="#0">Start free trial</a>
                 </div>
               </div>
 
               {/* Pricing table 3 */}
               <div className="relative flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="800">
                 <div className="mb-4 pb-4 border-b border-gray-700">
-                  <div className="h4 text-purple-600 mb-1">Advanced</div>
+                  <div className="h4 text-gray-600 mb-1">Advanced</div>
                   <div className="inline-flex items-baseline mb-2">
                     <span className="text-2xl md:text-3xl font-medium text-gray-400">$</span>
                     <span className="h2">{annual ? '129' : '135'}</span>
@@ -183,7 +183,7 @@ export default function PricingTables() {
                   </li>
                 </ul>
                 <div className="border border-gray-700 p-3 mt-6">
-                  <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 w-full" href="#0">Start free trial</a>
+                  <a className="btn-sm text-white bg-gray-600 hover:bg-gray-700 w-full" href="#0">Start free trial</a>
                 </div>
               </div>
 
@@ -193,7 +193,7 @@ export default function PricingTables() {
             <div className="flex flex-col lg:flex-row justify-between items-center mt-12 lg:mt-6 lg:py-8 lg:border-t lg:border-b lg:border-gray-800">
               <div className="font-medium text-lg text-center lg:text-left mb-4 lg:mb-0">Expecting more than 1000 Active End Users?</div>
               <div>
-                <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700" href="#0">Contact us</a>
+                <a className="btn-sm text-white bg-gray-600 hover:bg-gray-700" href="#0">Contact us</a>
               </div>
             </div>
 

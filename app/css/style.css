@@ -14,9 +14,15 @@
     .rtl {
         direction: rtl;
     }
-}
+    .filter-none {
+        filter: saturate(100%);
+      }
+      .filter-grayscale {
+        filter: grayscale(100%);
+      }
+    }
 
-/* See Alpine.js: https://github.com/alpinejs/alpine#x-cloak */
+/* See Alpine.js: https://github.com/alpinejs/ alpine#x-cloak */
 [x-cloak=""] {
     display: none;
 }

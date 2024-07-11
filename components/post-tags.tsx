@@ -15,7 +15,7 @@ export default function PostTags({ tags }: {
       case 'Culture':
         return 'text-gray-100 bg-green-500 hover:bg-green-600'
       default:
-        return 'text-gray-100 bg-purple-600 hover:bg-purple-700'
+        return 'text-gray-100 bg-gray-600 hover:bg-gray-700'
     }
   }
 

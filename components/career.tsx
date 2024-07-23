@@ -14,7 +14,7 @@ export default function Career() {
             <div className="py-3" data-aos="fade-up" data-aos-anchor="[data-aos-id-career]">
               <div className="pb-6 border-b border-gray-800">
                 <div className="mb-2">
-                  <a className="flex justify-between items-center text-xl font-bold text-gray-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">
+                  <a className="flex justify-between items-center text-xl font-bold text-gray-600 hover:text-gray-200 transition duration-150 ease-in-out" href="/contact">
                     <span>Lead Product Designer</span>
                     <svg className="stroke-current shrink-0 ml-2" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
                       <g strokeWidth="2" fill="none">
@@ -49,7 +49,7 @@ export default function Career() {
             <div className="py-3" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-career]">
               <div className="pb-6 border-b border-gray-800">
                 <div className="mb-2">
-                  <a className="flex justify-between items-center text-xl font-bold text-gray-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">
+                  <a className="flex justify-between items-center text-xl font-bold text-gray-600 hover:text-gray-200 transition duration-150 ease-in-out" href="/contact">
                     <span>Front-end Engineer</span>
                     <svg className="stroke-current shrink-0 ml-2" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
                       <g strokeWidth="2" fill="none">
@@ -84,7 +84,7 @@ export default function Career() {
             <div className="py-3" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-career]">
               <div className="pb-6 border-b border-gray-800">
                 <div className="mb-2">
-                  <a className="flex justify-between items-center text-xl font-bold text-gray-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">
+                  <a className="flex justify-between items-center text-xl font-bold text-gray-600 hover:text-gray-200 transition duration-150 ease-in-out" href="/contact">
                     <span>Product Manager</span>
                     <svg className="stroke-current shrink-0 ml-2" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
                       <g strokeWidth="2" fill="none">

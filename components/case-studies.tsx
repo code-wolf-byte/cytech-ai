@@ -12,9 +12,8 @@ export default function CaseStudies() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Integrated workflow designed for product teams</h2>
-            <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit laborum — semper quis lectus nulla.</p>
+            <h2 className="h2 mb-4"> Complete protection against</h2>
+            <p className="text-xl text-gray-400">We are highly skilled in protecting you and your company against cyberthreats with the most common threats being</p>
           </div>
 
           {/* Articles */}

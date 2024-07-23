@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'About us - Open PRO',
+  title: 'About us - Cytechai',
   description: 'Page description',
 }
 
@@ -19,9 +19,8 @@ export default function About() {
       <TeamImages />
       <Timeline />
       <Team />
-      <TestimonialsCarousel />
-      <Career />
-      <Clients />
+      
+     
       <Newsletter />
     </>
   )

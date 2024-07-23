@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Contact us - Open PRO',
+  title: 'Contact us - Cytechai',
   description: 'Page description',
 }
 
@@ -23,8 +23,8 @@ export default function Contact() {
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full md:w-1/2 px-3 mb-4 md:mb-0">
                   <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="first-name">First Name <span className="text-red-600">*</span></label>
-                  <input id="first-name" type="text" className="form-input w-full text-gray-300 border-red-500 focus:border-red-500" placeholder="Enter your first name" required />
-                  <p className="text-red-500 text-sm mt-2">This field is required</p>
+                  <input id="first-name" type="text" className="form-input w-full text-gray-300 focus:border-red-500" placeholder="Enter your first name" required />
+                 
                 </div>
                 <div className="w-full md:w-1/2 px-3">
                   <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="last-name">Last Name <span className="text-red-600">*</span></label>

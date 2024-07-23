@@ -1,7 +1,9 @@
+
+
 export const metadata = {
-  title: 'Home - Open PRO',
-  description: 'Page description',
-}
+  title: 'Cytechai',
+  
+};
 
 import Hero from '@/components/hero-home'
 import Process from '@/components/process'
@@ -18,8 +20,8 @@ export default function Home() {
       <Process />
       <FeaturesHome />
       <Tabs />
-      <Target />
-      <News />
+      
+      
       <Newsletter />      
     </>
   )

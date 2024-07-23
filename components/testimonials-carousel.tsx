@@ -72,14 +72,16 @@ export default function TestimonialsCarousel() {
 
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-gray-800">
+       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
+       
+        {/* Hero content */}
+        <div className="relative pt-32 pb-10 md:pt-40 md:pb-10">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16" data-aos-id-testimonialcar>
-            <h2 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-testimonialcar]">Join the Open PRO team</h2>
-            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-testimonialcar]">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus in ornare.</p>
-          </div>
+          <div className="mx-auto text-center pb-12 md:pb-16">
+      
+          <h1 className="h1 mb-4" data-aos="fade-up" style={{ fontSize: '50px' }}>Work with us to create safe cyberspace</h1>
+       </div>
 
           {/* Check list */}
           <div className="max-w-3xl mx-auto pb-16">
@@ -134,14 +136,7 @@ export default function TestimonialsCarousel() {
                 </div>
                 {/* People pics */}
                 <Image src={WorldImage} width={672} height={330} alt="World map" />
-                <Image className="absolute rounded-full" style={{ top: '22%', left: '52%' }} src={UserImage01} width={32} height={32} alt="User 01" data-aos="fade-up" />
-                <Image className="absolute rounded-full" style={{ top: '50%', left: '58%' }} src={UserImage02} width={48} height={48} alt="User 02" data-aos="fade-up" data-aos-delay="400" />
-                <Image className="absolute rounded-full" style={{ top: '8.5%', left: '70.5%' }} src={UserImage03} width={56} height={56} alt="User 02" data-aos="fade-up" data-aos-delay="100" />
-                <Image className="absolute rounded-full" style={{ top: '34%', left: '76.5%' }} src={UserImage04} width={72} height={72} alt="User 04" data-aos="fade-up" data-aos-delay="700" />
-                <Image className="absolute rounded-full" style={{ top: '29.5%', left: '8.5%' }} src={UserImage05} width={48} height={48} alt="User 05" data-aos="fade-up" data-aos-delay="500" />
-                <Image className="absolute rounded-full" style={{ top: '56%', left: '19%' }} src={UserImage06} width={56} height={56} alt="User 06" data-aos="fade-up" data-aos-delay="200" />
-                <Image className="absolute rounded-full" style={{ top: '20%', left: '24.5%' }} src={UserImage07} width={64} height={64} alt="User 07" data-aos="fade-up" data-aos-delay="600" />
-                <Image className="absolute rounded-full" style={{ top: '39%', left: '43%' }} src={UserImage08} width={40} height={40} alt="User 08" data-aos="fade-up" data-aos-delay="300" />
+                
               </div>
             </div>
 

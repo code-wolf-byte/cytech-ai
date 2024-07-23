@@ -47,9 +47,11 @@ export default function Contact() {
                 <div className="w-full px-3">
                   <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="country">Country</label>
                   <select id="country" className="form-select w-full text-gray-300">
+                    <option>India</option>
                     <option>United States</option>
                     <option>United Kingdom</option>
                     <option>Germany</option>
+                    <option>Japan</option>
                   </select>
                 </div>
               </div>
@@ -78,7 +80,6 @@ export default function Contact() {
         </div>
       </section>
 
-      <CtaContact />
     </>
   )
 }

@@ -22,18 +22,13 @@ export default function Header() {
             {/* Desktop menu links */}
             <ul className="flex grow justify-center items-center"> {/* Centering text */}
               <li>
+                <Link href="/home" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
+                  Home
+                </Link>
+              </li>
+              <li>
                 <Link href="/features" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
                   Features
-                </Link>
-              </li>
-              <li>
-                <Link href="/pricing" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
-                  Pricing
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
-                  Blog
                 </Link>
               </li>
               <li>
@@ -41,25 +36,13 @@ export default function Header() {
                   About us
                 </Link>
               </li>
-              {/* 1st level: hover */}
-              <Dropdown title="Support">
-                {/* 2nd level: hover */}
+    
                 <li>
                   <Link href="/contact" className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">
                     Contact us
                   </Link>
                 </li>
-                <li>
-                  <Link href="/help/frequently-asked-questions" className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">
-                    Help center
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/404" className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">
-                    404
-                  </Link>
-                </li>
-              </Dropdown>
+ 
             </ul> 
           </nav>
 

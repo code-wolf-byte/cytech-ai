@@ -1,3 +1,5 @@
+'use client'
+
 export const metadata = {
   title: 'Contact us - Open PRO',
   description: 'Page description',

@@ -1,9 +1,6 @@
 'use client'
 
-export const metadata = {
-  title: 'Contact us - Open PRO',
-  description: 'Page description',
-}
+
 
 import { useState } from 'react'
 import CtaContact from '@/components/cta-contact'

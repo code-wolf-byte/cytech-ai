@@ -1,5 +1,5 @@
-
 'use client'
+
 
 
 import { useState } from 'react'
@@ -16,8 +16,6 @@ export default function Contact() {
     agree: false
   })
 
-
-  
   const handleChange = (e : any) => {
     const { name, value, type, checked } = e.target
     setFormData({
@@ -50,6 +48,7 @@ export default function Contact() {
   }
 
   return (
+    <>
       <section className="relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
           <div className="pt-32 pb-12 md:pt-40 md:pb-20">
@@ -65,13 +64,8 @@ export default function Contact() {
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full md:w-1/2 px-3 mb-4 md:mb-0">
                   <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="first-name">First Name <span className="text-red-600">*</span></label>
-<<<<<<< HEAD
-                  <input id="first-name" type="text" className="form-input w-full text-gray-300 focus:border-red-500" placeholder="Enter your first name" required />
-                 
-=======
                   <input id="first-name" name="firstName" type="text" className="form-input w-full text-gray-300 border-red-500 focus:border-red-500" placeholder="Enter your first name" value={formData.firstName} onChange={handleChange} required />
                   <p className="text-red-500 text-sm mt-2">This field is required</p>
->>>>>>> 81e5c95a8b735f32cc0bb70ea3925d3dc3b65de2
                 </div>
                 <div className="w-full md:w-1/2 px-3">
                   <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="last-name">Last Name <span className="text-red-600">*</span></label>
@@ -86,33 +80,19 @@ export default function Contact() {
               </div>
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
-<<<<<<< HEAD
-                <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="country">Subject</label>
-                  <select id="country" className="form-select w-full text-gray-300">
-                  <option>Business Enquiry</option>
-                    <option>Consultancy</option>
-                    <option>Career</option>
-                    <option>Others</option>
-                  </select>
-=======
                   <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="subject">Subject <span className="text-red-600">*</span></label>
                   <input id="subject" name="subject" type="text" className="form-input w-full text-gray-300" placeholder="How can we help you?" value={formData.subject} onChange={handleChange} required />
->>>>>>> 81e5c95a8b735f32cc0bb70ea3925d3dc3b65de2
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
                   <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="country">Country</label>
-<<<<<<< HEAD
-                  <select id="country" className="form-select w-full text-gray-300">
-                  <option>India</option>
-=======
                   <select id="country" name="country" className="form-select w-full text-gray-300" value={formData.country} onChange={handleChange}>
                     <option>India</option>
->>>>>>> 81e5c95a8b735f32cc0bb70ea3925d3dc3b65de2
                     <option>United States</option>
                     <option>United Kingdom</option>
                     <option>Germany</option>
+                    <option>Japan</option>
                   </select>
                 </div>
               </div>
@@ -140,11 +120,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-<<<<<<< HEAD
-
-      <CtaContact />
-=======
->>>>>>> 81e5c95a8b735f32cc0bb70ea3925d3dc3b65de2
     </>
   )
 }

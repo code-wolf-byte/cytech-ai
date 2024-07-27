@@ -32,21 +32,21 @@ export default function TestimonialsCarousel() {
     {
       img: UserImage01,
       alt: 'Testimonial 01',
-      quote: '" our Compnay is "',
+      quote: '"CyTechAI\'s expertise and proactive approach have significantly enhanced our cybersecurity. Their professional team ensures our data is secure. Highly recommend their exceptional service!"',
       name: 'Aryan Shah',
       role: 'Backend Developer'
     },
     {
       img: UserImage02,
       alt: 'Testimonial 02',
-      quote: '“ Not only in my career but in education as well, I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more.“',
+      quote: '“Thanks to CyTechAI, our security framework is robust and reliable. Their knowledgeable team provided seamless integration and excellent support. Highly satisfied!“',
       name: 'Greg Sebastian',
       role: 'Head of Design'
     },
     {
       img: UserImage03,
       alt: 'Testimonial 03',
-      quote: '“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“',
+      quote: '“CyTechAI quickly resolved our vulnerabilities and strengthened our defenses. Their professional and responsive team offers top-notch cybersecurity solutions. Highly recommended!“',
       name: 'Dominik Prasad',
       role: 'Backend Lead'
     }

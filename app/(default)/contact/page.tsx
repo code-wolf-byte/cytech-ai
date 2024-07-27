@@ -1,8 +1,9 @@
+
 'use client'
 
 
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import CtaContact from '@/components/cta-contact'
 
 export default function Contact() {
@@ -15,6 +16,9 @@ export default function Contact() {
     message: '',
     agree: false
   })
+  useEffect(() => {
+    document.title = "Contact Us - CytechAI"
+  }, [])
 
   const handleChange = (e : any) => {
     const { name, value, type, checked } = e.target
@@ -64,8 +68,8 @@ export default function Contact() {
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full md:w-1/2 px-3 mb-4 md:mb-0">
                   <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="first-name">First Name <span className="text-red-600">*</span></label>
-                  <input id="first-name" name="firstName" type="text" className="form-input w-full text-gray-300 border-red-500 focus:border-red-500" placeholder="Enter your first name" value={formData.firstName} onChange={handleChange} required />
-                  <p className="text-red-500 text-sm mt-2">This field is required</p>
+                  <input id="first-name" name="firstName" type="text" className="form-input w-full text-gray-300" placeholder="Enter your first name" value={formData.firstName} onChange={handleChange} required />
+                 
                 </div>
                 <div className="w-full md:w-1/2 px-3">
                   <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="last-name">Last Name <span className="text-red-600">*</span></label>
@@ -92,7 +96,6 @@ export default function Contact() {
                     <option>United States</option>
                     <option>United Kingdom</option>
                     <option>Germany</option>
-                    <option>Japan</option>
                   </select>
                 </div>
               </div>

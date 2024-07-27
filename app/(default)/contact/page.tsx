@@ -1,12 +1,5 @@
-<<<<<<< HEAD
-export const metadata = {
-  title: 'Contact us - Cytechai',
-  description: 'Page description',
-}
-=======
-'use client'
->>>>>>> 81e5c95a8b735f32cc0bb70ea3925d3dc3b65de2
 
+'use client'
 
 
 import { useState } from 'react'

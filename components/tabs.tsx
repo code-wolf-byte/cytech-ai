@@ -1,12 +1,21 @@
 'use client'
 
 import { useRef, useState, useEffect } from 'react'
-
 import Image from 'next/image'
 import { Transition } from '@headlessui/react'
+import phisi from '@/public/images/phising.jpg'
+import inject from '@/public/images/injectionat.png'
 import denial from '@/public/images/denial.png'
+import mana from '@/public/images/man.jpg'
+import mal from '@/public/images/malware.jpg' 
+import zerod from '@/public/images/zeroday.jpg'
+import inj from '@/public/images/inj.png'
+import man from '@/public/images/man.png'
 import bug from '@/public/images/bug.png'
 import dos from '@/public/images/dos.png'
+import phis from '@/public/images/phising.png'
+import zero from'@/public/images/zero-day.png'
+
 export default function Tabs() {
 
   const [tab, setTab] = useState<number>(1)
@@ -48,12 +57,14 @@ export default function Tabs() {
                 className={`flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500 ${tab !== 2 && 'opacity-50'}`}
                 onClick={() => setTab(2)}
               >
+                <Image className="w-4 h-4 fill-current text-gray-600 mr-2" src={phis} alt='bug' />
                 <span className="text-gray-400 group-hover:text-gray-200 transition-colors duration-150 ease-in-out">Phising</span>
               </button>
               <button
                 className={`flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500 ${tab !== 3 && 'opacity-50'}`}
                 onClick={() => setTab(3)}
               >
+                <Image className="w-4 h-4 fill-current text-gray-600 mr-2" src={zero} alt='bug' />
                 <span className="text-gray-400 group-hover:text-gray-200 transition-colors duration-150 ease-in-out">Zero-Day Exploit</span>
               </button>
               <button
@@ -67,13 +78,14 @@ export default function Tabs() {
                 className={`flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500 ${tab !== 5 && 'opacity-50'}`}
                 onClick={() => setTab(5)}
               >
-                  
+                  <Image className="w-4 h-4 fill-current text-gray-600 mr-2" src={inj} alt='DOS'/>
                 <span className="text-gray-400 group-hover:text-gray-200 transition-colors duration-150 ease-in-out">Injection </span>
               </button>
               <button
                 className={`flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500 ${tab !== 5 && 'opacity-50'}`}
                 onClick={() => setTab(6)}
               >
+                <Image className="w-4 h-4 fill-current text-gray-600 mr-2" src={man} alt='DOS'/>
                 <span className="text-gray-400 group-hover:text-gray-200 transition-colors duration-150 ease-in-out">MITM</span>
               </button>
             </div>
@@ -82,6 +94,7 @@ export default function Tabs() {
             <div className="transition-all">
               <div className="relative flex flex-col mt-16" data-aos="fade-up" ref={tabs}>
 
+          
                 {/* Item 1 */}
                 <Transition
                   show={tab === 1}
@@ -96,6 +109,7 @@ export default function Tabs() {
                 >
                   <article className="relative max-w-md mx-auto md:max-w-none">
                     <figure className="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
+                      <Image className="w-full h-full object-cover" src={mal} width={516} height={387} alt="Tabs 01" />
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
                       <h4 className="h4 mb-2">Malware Attack</h4>
@@ -125,6 +139,7 @@ Almost every modern cyberattack involves some type of malware. Threat actors use
                 >
                   <article className="relative max-w-md mx-auto md:max-w-none">
                     <figure className="md:absolute md:inset-y-0 md:left-0 md:w-1/2">
+                      <Image className="w-full h-full object-cover" src={phisi} width={516} height={387} alt="Tabs 02" />
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
                       <h4 className="h4 mb-2">Phising</h4>
@@ -153,6 +168,7 @@ Almost every modern cyberattack involves some type of malware. Threat actors use
                 >
                   <article className="relative max-w-md mx-auto md:max-w-none">
                     <figure className="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
+                      <Image className="w-full h-full object-cover" src={zerod} width={516} height={387} alt="Tabs 01" />
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
                       <h4 className="h4 mb-2">Zero-Day Exploit</h4>
@@ -210,6 +226,7 @@ Almost every modern cyberattack involves some type of malware. Threat actors use
                 >
                   <article className="relative max-w-md mx-auto md:max-w-none">
                     <figure className="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
+                      <Image className="w-full h-full object-cover" src={inject} width={516} height={387} alt="Tabs 01" />
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
                       <h4 className="h4 mb-2">Injection attacks</h4>
@@ -241,6 +258,8 @@ Almost every modern cyberattack involves some type of malware. Threat actors use
                 >
                   <article className="relative max-w-md mx-auto md:max-w-none">
                     <figure className="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
+                    <Image className="w-full h-full object-cover" src={mana} width={516} height={387} alt="Tabs 01" />
+
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
                       <h4 className="h4 mb-2">Man-In-The-Middle Attack</h4>

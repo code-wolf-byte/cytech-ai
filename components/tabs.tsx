@@ -28,8 +28,8 @@ export default function Tabs() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12" data-aos-id-tabs>
-            <h2 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">Complete protection against cyberthreats</h2>
-            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-tabs]">We are highly skilled in protecting you and your company against cyberthreats with the most common threats being</p>
+            <h2 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">Complete protection against cyber Attacks</h2>
+            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-tabs]">We are highly skilled in protecting you and your company against cyber attacks with the most common attacks being</p>
           </div>
 
           {/* Section content */}

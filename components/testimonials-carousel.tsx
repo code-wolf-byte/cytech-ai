@@ -7,7 +7,7 @@ import { Transition } from '@headlessui/react'
 import WorldImage from '@/public/images/worldmap.png'
 import UserImage01 from '@/public/images/world-user-01.jpg'
 import UserImage02 from '@/public/images/world-user-02.jpg'
-import UserImage03 from '@/public/images/world-user-03.jpg'
+import UserImage03 from '@/public/images/world-user-03.jpeg'
 import UserImage04 from '@/public/images/world-user-04.jpg'
 import UserImage05 from '@/public/images/world-user-05.jpg'
 import UserImage06 from '@/public/images/world-user-06.jpg'
@@ -32,8 +32,8 @@ export default function TestimonialsCarousel() {
     {
       img: UserImage01,
       alt: 'Testimonial 01',
-      quote: '“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“',
-      name: 'Darya Semenova',
+      quote: '" our Compnay is "',
+      name: 'Aryan Shah',
       role: 'Backend Developer'
     },
     {

@@ -1,8 +1,5 @@
 import Image from 'next/image'
 
-import TeamImage01 from '@/public/images/team-member-01.jpg'
-import TeamImage02 from '@/public/images/team-member-02.jpg'
-import TeamImage03 from '@/public/images/team-member-03.jpg'
 import TeamImage04 from '@/public/images/team-member-04.jpg'
 import TeamImage05 from '@/public/images/team-member-05.jpg'
 import TeamImage06 from '@/public/images/team-member-06.jpg'
@@ -27,7 +24,7 @@ export default function Team() {
             {/* 1st member */}
             <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
-                <Image className="rounded-full mb-4" src={TeamImage01} width={120} height={120} alt="Team member 01" />
+                <Image className="rounded-full mb-4" src={TeamImage04} width={120} height={120} alt="Team member 01" />
                 <h4 className="text-xl font-medium mb-1">Lara Lamprecht</h4>
                 <div className="text-gray-500 mb-1">CEO & Co-founder</div>
                 <a className="block text-gray-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@laraamprecht</a>
@@ -37,7 +34,7 @@ export default function Team() {
             {/* 2nd member */}
             <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
-                <Image className="rounded-full mb-4" src={TeamImage02} width={120} height={120} alt="Team member 02" />
+                <Image className="rounded-full mb-4" src={TeamImage04} width={120} height={120} alt="Team member 02" />
                 <h4 className="text-xl font-medium mb-1">Aryan Shah</h4>
                 <div className="text-gray-500 mb-1">Director</div>
                 <a className="block text-gray-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@marie_moon</a>
@@ -47,7 +44,7 @@ export default function Team() {
             {/* 3rd member */}
             <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
-                <Image className="rounded-full mb-4" src={TeamImage03} width={120} height={120} alt="Team member 03" />
+                <Image className="rounded-full mb-4" src={TeamImage04} width={120} height={120} alt="Team member 03" />
                 <h4 className="text-xl font-medium mb-1">Jayant Singh</h4>
                 <div className="text-gray-500 mb-1">Head of Design</div>
                 <a className="block text-gray-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@mr_sebastian</a>

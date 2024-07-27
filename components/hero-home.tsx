@@ -26,7 +26,7 @@ export default function HeroHome() {
           {/* Section header */}
           <div className="mx-auto text-center pb-12 md:pb-16">
       
-          <h1 className="h1 mb-4" data-aos="fade-up" style={{ fontSize: '90px' }}>PROTECTING <text className="h1 mb-4 text-[#45637b]" style={{ fontSize: '50px' }}>INNOVATION</text></h1>
+          <h1 className="h1 mb-4" data-aos="fade-up" style={{ fontSize: '5vw' }}>PROTECTING <text className="h1 mb-4 text-[#45637b]" style={{ fontSize: '3vw' }}>INNOVATION</text></h1>
        
           
           
@@ -37,7 +37,7 @@ export default function HeroHome() {
                 <a className="btn text-white bg-[#45637b] hover:bg-[#151719] w-full mb-4 sm:w-auto sm:mb-0" href="/contact">Contact Us</a>
               </div>  
               <div data-aos="fade-up" data-aos-delay="600"> 
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
+                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="/services">Learn more</a>
               </div>
             </div>
           </div>

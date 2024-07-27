@@ -65,7 +65,7 @@ export default function Footer() {
 
               
               {/* 4th block */}
-              <div className="text-sm">
+              <div className="text-xl md:flex md:items-center md:justify-between">
                 <h6 className="text-gray-200 font-medium mb-1"></h6>
                 <ul>
                   <li className="mb-1">

@@ -18,7 +18,7 @@ export default function About() {
       <HeroAbout />
       <TeamImages />
       <Timeline />
-      <Team />
+     
       
      
       <Newsletter />

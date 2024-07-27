@@ -1,0 +1,62 @@
+/* components/HoverableBox.module.css */
+.box {
+    padding: 20px;
+    background-color: #a8c3da;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 32px rgba(248, 247, 247, 0.1); 
+    background-color: #2c2b2b;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    margin: 10px 0;
+    font-size: 1.25rem;
+    color: #fafafa;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #848383;
+  }
+  
+  /* pages/index.module.css */
+  .container {
+    max-width: 1500px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Centers the container */
+    padding: 0 20px; /* Adds some padding on the sides */
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for larger screens */
+    gap: 50px;
+    padding: 20px 0;
+  }
+  
+  /* Media query for medium screens */
+  @media (max-width: 1024px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+    }
+  }
+  
+  /* Media query for small screens */
+  @media (max-width: 600px) {
+    .grid {
+      grid-template-columns: 1fr; /* 1 column for smaller screens */
+      gap: 20px;
+      padding: 10px 0;
+    }
+  }
+  

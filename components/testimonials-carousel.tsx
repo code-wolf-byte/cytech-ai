@@ -28,27 +28,27 @@ export default function TestimonialsCarousel() {
     role: string
   }  
 
-  const items: Item[] = [
+ const items: Item[] = [
     {
       img: UserImage01,
       alt: 'Testimonial 01',
-      quote: '"CyTechAI\'s expertise and proactive approach have significantly enhanced our cybersecurity. Their professional team ensures our data is secure. Highly recommend their exceptional service!"',
+      quote: '"At Cytechai our approach is highly expertised and proactive. Our professional team ensures your data is secure and protected at all time. "',
       name: 'Aryan Shah',
       role: 'Director'
     },
     {
       img: UserImage02,
       alt: 'Testimonial 02',
-      quote: '“Thanks to CyTechAI, our security framework is robust and reliable. Their knowledgeable team provided seamless integration and excellent support. Highly satisfied!“',
-      name: 'Greg Sebastian',
-      role: 'Head of Design'
+      quote: '“ Cytechai is a highly dedicated and professional company with expertise in providing protection against all major cyberthreats. “',
+      name: 'Jayant Singh',
+      role: 'Treasurer'
     },
     {
       img: UserImage03,
       alt: 'Testimonial 03',
-      quote: '“CyTechAI quickly resolved our vulnerabilities and strengthened our defenses. Their professional and responsive team offers top-notch cybersecurity solutions. Highly recommended!“',
-      name: 'Dominik Prasad',
-      role: 'Backend Lead'
+      quote: '“ Not only in my career but in education as well, I feel grateful that Cytechai pushed me to expand my horizons and strive to accomplish more“',
+      name: 'Tanay Upreti',
+      role: 'Senior Software Engineer'
     }
   ]
   

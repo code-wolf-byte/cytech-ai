@@ -34,7 +34,7 @@ export default function TestimonialsCarousel() {
       alt: 'Testimonial 01',
       quote: '"CyTechAI\'s expertise and proactive approach have significantly enhanced our cybersecurity. Their professional team ensures our data is secure. Highly recommend their exceptional service!"',
       name: 'Aryan Shah',
-      role: 'Backend Developer'
+      role: 'Director'
     },
     {
       img: UserImage02,
